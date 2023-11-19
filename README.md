@@ -2,17 +2,13 @@
 # Setup Docker Para Projetos Laravel (8, 9 ou 10)
 
 ### Passo a passo
-Clone Repositório
-```sh
-    Este repositório
-```
 
 Clone os Arquivos do Laravel
 ```sh
 git clone https://github.com/laravel/laravel.git app-laravel
 ```
 
-
+Mova os arquivos clonados da pasta app-laravel para esse repositório OU
 Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
 ```sh
 cp -rf setup-docker-laravel/* app-laravel/
